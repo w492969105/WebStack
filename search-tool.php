@@ -16,9 +16,9 @@
         <div class="search-group group-a">
             <span class="type-text"><?php _e('常用','i_theme') ?></span>
             <ul class="search-type">
+            <li><input hidden type="radio" name="type" id="type-zhannei" value="<?php bloginfo('url') ?>?s=" data-placeholder="<?php _e('站内搜索','i_theme') ?>"><label for="type-zhannei"><span style="color:#888888"><?php _e('站内','i_theme') ?></span></label></li>
                 <li><input checked hidden type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="<?php _e('百度一下','i_theme') ?>"><label for="type-baidu"><span style="color:#2100E0"><?php _e('百度','i_theme') ?></span></label></li>
-                <li><input hidden type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="<?php _e('谷歌两下','i_theme') ?>"><label for="type-google"><span style="color:#3B83FA">G</span><span style="color:#F3442C">o</span><span style="color:#FFC300">o</span><span style="color:#4696F8">g</span><span style="color:#2CAB4E">l</span><span style="color:#F54231">e</span></label></li>
-                <li><input hidden type="radio" name="type" id="type-zhannei" value="<?php bloginfo('url') ?>?s=" data-placeholder="<?php _e('站内搜索','i_theme') ?>"><label for="type-zhannei"><span style="color:#888888"><?php _e('站内','i_theme') ?></span></label></li>
+                <li><input hidden type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="<?php _e('谷歌两下','i_theme') ?>"><label for="type-google"><span style="color:#3B83FA">G</span><span style="color:#F3442C">o</span><span style="color:#FFC300">o</span><span style="color:#4696F8">g</span><span style="color:#2CAB4E">l</span><span style="color:#F54231">e</span></label></li>               
                 <li><input hidden type="radio" name="type" id="type-taobao" value="https://s.taobao.com/search?q=" data-placeholder="<?php _e('淘宝','i_theme') ?>"><label for="type-taobao"><span style="color:#f40"><?php _e('淘宝','i_theme') ?></span></label></li>
                 <li><input hidden type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="<?php _e('微软Bing搜索','i_theme') ?>"><label for="type-bing1"><span style="color:#007daa">Bing</span></label></li>
             </ul>

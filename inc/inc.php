@@ -193,7 +193,7 @@ add_action('in_admin_header', function(){
 });
 add_filter('admin_footer_text', 'left_admin_footer_text');
 function left_admin_footer_text($text) {
-    $text = '<span id="footer-thankyou">感谢您使用 <a href="https://www.iotheme.cn/" target="_blank">一为的 WordPress 主题</a></span>';
+    $text = '<span id="footer-thankyou"></span>';
     return $text;
 }
 
